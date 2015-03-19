@@ -1,0 +1,10 @@
+RELEASE=2
+CODENAME=betsy
+EDITION="Cinnamon 64-bit"
+DESCRIPTION="LMDE 2 Betsy"
+DESKTOP=Gnome
+TOOLKIT=GTK
+NEW_FEATURES_URL=http://www.linuxmint.com/rel_betsy_whatsnew.php
+RELEASE_NOTES_URL=http://www.linuxmint.com/rel_betsy.php
+USER_GUIDE_URL=help:linuxmint
+GRUB_TITLE=LMDE 2 Cinnamon 64-bit
