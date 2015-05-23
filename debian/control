@@ -23,3 +23,10 @@ Depends: mint-user-guide-mate
 Description: Necessary information about the Linux Mint release and edition.
  Base package. This package is needed by the Mint tools and the system to uniquely identify the edition and release of Linux Mint you're using and to get information related to it.
 
+Package: mint-info-debian-lxde
+Architecture: any
+Provides: mint-info
+Replaces: mint-info-debian
+Conflicts: mint-info-debian
+Description: Necessary information about the Linux Mint release and edition.
+ Base package. This package is needed by the Mint tools and the system to uniquely identify the edition and release of Linux Mint you're using and to get information related to it.

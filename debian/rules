@@ -51,6 +51,9 @@ install: build
 	mkdir -p $(CURDIR)/debian/mint-info-debian-mate
 	cp -r $(CURDIR)/mint-info-debian-mate/$(DEB_HOST_ARCH)/etc $(CURDIR)/debian/mint-info-debian-mate/
 
+	mkdir -p $(CURDIR)/debian/mint-info-debian-lxde
+	cp -r $(CURDIR)/mint-info-debian-mate/$(DEB_HOST_ARCH)/etc $(CURDIR)/debian/mint-info-debian-lxde/
+
 # Build architecture-independent files here.
 binary-indep: build install
 # We have nothing to do by default.
